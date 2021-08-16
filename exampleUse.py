@@ -47,21 +47,3 @@ Jack.interactionsC = {
 
 
 app.start(exampleArea1)
-
-"""
-#start of the game=============================================================
-currentLoc = exampleArea1
-currentLoc.enter()
-running = True
-while running:
-    #main game loop
-    inp = input("what do you do?")
-    inp.lower()
-    if inp != "q" and inp != "quit":
-        currentLoc = currentLoc.process(inp, currentLoc)
-    else:
-        running = False
-
-print("quitting")
-quit()
-"""
